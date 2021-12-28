@@ -8,11 +8,11 @@ index_font_awesome_icon_css: fa fa-server
 
 # Header
 menu:
-  Home: /
-  Categories: /目录
-  About: /关于
-  Contact: /联系我们
-  Archives: /归档
+  首页: /
+  目录: /categories
+  关于: /about
+  联系我们: /contact
+  归档: /archives
 
 # Post
 default_post_title: Untitled
