@@ -1,40 +1,28 @@
 ---
-title: Hello World
+
+title: 开发日志
+
+date: 2022-01-21
 categories:
-  - document
+
+- document
+
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+DragonOS的开发日志：
 
-### Create a new post
+- 2022-01-15 创建了项目
 
-``` bash
-$ hexo new "My New Post"
-```
+- 2022-01-21 编译程序从CMake改成Makefile
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+## 引导程序
 
-### Run server
+- 2022-01-17 完成了boot引导程序
 
-``` bash
-$ hexo server
-```
+- 2022-01-20 完成了loader加载程序
 
-More info: [Server](https://hexo.io/docs/server.html)
+## 内核层
 
-### Generate static files
+- 2022-01-21 完成了内核执行头程序
 
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+- 
