@@ -1,5 +1,5 @@
 # Logo
-logo_image_source: http://www.codeblocq.com/assets/projects/hexo-theme-anodyne/assets/anodyne.svg
+logo_image_source: https://s2.loli.net/2022/06/18/5RyikoOthfxGpBl.png
 
 # Index Page
 index_banner_text: 欢迎来到 DragonOS
@@ -9,9 +9,10 @@ index_font_awesome_icon_css: fa fa-server
 # Header
 menu:
   首页: /
-  目录: /categories
+  文档: https://docs.dragonos.org
   关于: /about
   联系我们: /contact
+  赞助: /donate
   归档: /archives
 
 # Post
