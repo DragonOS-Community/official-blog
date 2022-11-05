@@ -13,13 +13,10 @@ date: 2022-8-15
 
 ## 赞助的资金都会被用到哪里？
 
-- 官网及社区论坛的服务器开支
-
-- 代码搜索引擎服务器的开支（这不是一个小数目）
-
-- 域名、CDN等服务的开支
-
-- 任何有助于DragonOS发展建设的用途
+- 为活跃的社区开发者发放补贴或设备支持
+- DragonOS的云服务开支
+- 设备购置
+- 任何有助于DragonOS发展的用途
 
 ## 赞助方式
 
@@ -39,6 +36,6 @@ date: 2022-8-15
 
 
 
-### 大额赞助或合作
+### 大额赞助/设备赞助/合作
 
-    请通过邮件联系我：[longjin@RinGoTek.cn](mailto:longjin@RinGoTek.cn)
+    请通过邮件联系龙进：[longjin@RinGoTek.cn](mailto:longjin@RinGoTek.cn)

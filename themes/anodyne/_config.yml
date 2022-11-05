@@ -10,10 +10,12 @@ index_font_awesome_icon_css: fa fa-server
 menu:
   首页: /
   文档: https://docs.dragonos.org
-  关于: /about
   联系我们: /contact
   赞助: /donate
   归档: /archives
+  GitHub: https://github.com/fslongjin/DragonOS
+  镜像站: https://mirrors.DragonOS.org
+  关于: /about
 
 # Post
 default_post_title: Untitled
