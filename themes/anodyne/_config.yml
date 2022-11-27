@@ -1,5 +1,5 @@
 # Logo
-logo_image_source: https://s2.loli.net/2022/06/18/5RyikoOthfxGpBl.png
+logo_image_source: https://s2.loli.net/2022/11/27/XIVQHhyJUReuP1a.png
 
 # Index Page
 index_banner_text: 欢迎来到 DragonOS
@@ -12,7 +12,7 @@ menu:
   文档: https://docs.dragonos.org
   联系我们: /contact
   赞助: /donate
-  归档: /archives
+  社区: https://bbs.DragonOS.org
   GitHub: https://github.com/fslongjin/DragonOS
   镜像站: https://mirrors.DragonOS.org
   关于: /about
@@ -26,8 +26,8 @@ archive_date_format: MMM YYYY
 archive_font_awesome_icon_css: fa-folder-open
 
 # About Widget
-about_widget_avatar_url: http://tachyons.io/img/avatar_1.jpg
-about_widget_text: "My name is LoGin and I want to produce something interesting for you!"
+about_widget_avatar_url: https://s2.loli.net/2022/11/27/XIVQHhyJUReuP1a.png
+about_widget_text: "DragonOS致力于成为一个完全独立自主的，具有Linux兼容性的，面向服务端的开源操作系统。"
 
 
 # Comments.
@@ -60,4 +60,4 @@ social_platforms:
     fa_icon: fa-rss
 
 # Footer about
-footer_about: "©2015-2021 RinGoTek. All right reserved."
+footer_about: "©2015-2022 RinGoTek. All right reserved."
