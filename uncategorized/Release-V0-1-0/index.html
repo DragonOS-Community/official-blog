@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+    
+        <meta name="description" content="一个开源的操作系统">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="LoGin">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="V0.1.0版本发布日志"/>
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="一个开源的操作系统" />
+    
+
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="DragonOS"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article" />
+    
+
+    <!--Page Cover-->
+    
+
+    <meta name="twitter:card" content="summary" />
+    
+
+    <!-- Title -->
+    
+    <title>V0.1.0版本发布日志 - DragonOS</title>
+
+    <!-- Tachyons Core CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom CSS -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!-- Google Analytics -->
+    
+
+
+<meta name="generator" content="Hexo 6.0.0"></head>
+
+
+<body>
+
+<!-- Main Content -->
+<!-- Banner -->
+<!-- Banner -->
+<div class="w-100 bg-1 ph5-ns ph3 text-light">
+    
+    <nav class="db dt-l w-100 mw8 center border-box pv3">
+        <a class="db dtc-l v-mid link dim w-100 w-25-l tc tl-l mb2 mb0-l white" href="/" title="DragonOS">
+            <img src="https://s2.loli.net/2022/11/27/XIVQHhyJUReuP1a.png" class="dib h3" alt="DragonOS">
+        </a>
+        <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
+            
+                <a class="link dim f6 f5-l dib mr3 mr4-l white" 
+                    href="/" 
+                    title="首页">
+                    首页
+                </a>
+            
+                <a class="link dim f6 f5-l dib mr3 mr4-l white" 
+                    target="_blank" rel="noopener" href="https://docs.dragonos.org" 
+                    title="文档">
+                    文档
+                </a>
+            
+                <a class="link dim f6 f5-l dib mr3 mr4-l white" 
+                    href="/contact" 
+                    title="联系我们">
+                    联系我们
+                </a>
+            
+                <a class="link dim f6 f5-l dib mr3 mr4-l white" 
+                    href="/donate" 
+                    title="赞助">
+                    赞助
+                </a>
+            
+                <a class="link dim f6 f5-l dib mr3 mr4-l white" 
+                    target="_blank" rel="noopener" href="https://bbs.DragonOS.org" 
+                    title="社区">
+                    社区
+                </a>
+            
+                <a class="link dim f6 f5-l dib mr3 mr4-l white" 
+                    target="_blank" rel="noopener" href="https://github.com/fslongjin/DragonOS" 
+                    title="GitHub">
+                    GitHub
+                </a>
+            
+                <a class="link dim f6 f5-l dib mr3 mr4-l white" 
+                    target="_blank" rel="noopener" href="https://mirrors.DragonOS.org" 
+                    title="镜像站">
+                    镜像站
+                </a>
+            
+                <a class="link dim f6 f5-l dib mr3 mr4-l white" 
+                    href="/about" 
+                    title="关于">
+                    关于
+                </a>
+            
+        </div>
+    </nav>
+
+    <!-- Title -->
+    <div class="w-100 mw8 center vh-40 dt">
+        <div class="dtc v-mid white">
+            <h1 class="f1-l f2-m tc tc-m tl-ns">V0.1.0版本发布日志</h1>
+            <p class="f4 fw3 pab-100px tc tc-m tl-ns">2022-11-06</p>
+        </div>
+    </div>
+
+    <!-- Icon -->
+    <div class="relative w-100 mw8 center white dn dn-m db-ns">
+        <i class="header-icon fa fa-file-text-o"></i>
+    </div>
+</div>
+
+<!-- Content -->
+<div class="w-100 ph2 ph4-m ph5-l mv5 mv6-l">
+    <div class="content">
+        <div class="mw8 center">
+            <div class="cf">
+                <div class="fl w-100 w-70-l mw7 left fw3 lh-copy pr4-ns pr0-m post-content">
+                    <!-- Tags Vertical -->
+                    
+                        <div class="tags-container-vertical">
+                            <div class="tags-sub-container">
+                                <a class="fw3 ph1 dib" href="/tags/Release/">#Release</a>
+                            </div>
+                        </div>
+                    
+
+                    <!-- Main Post Content -->
+                    <p>本文作者：龙进 <a href="mailto:&#x6c;&#x6f;&#110;&#x67;&#106;&#x69;&#x6e;&#64;&#x52;&#105;&#x6e;&#x47;&#x6f;&#84;&#101;&#x6b;&#x2e;&#x63;&#110;">&#x6c;&#x6f;&#110;&#x67;&#106;&#x69;&#x6e;&#64;&#x52;&#105;&#x6e;&#x47;&#x6f;&#84;&#101;&#x6b;&#x2e;&#x63;&#110;</a></p>
+<p>2022年11月6日</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>&emsp;&emsp;DragonOS从2022年1月15日开始开发，到如今已经经历了将近300天。在这么多个日夜里，已经数不清到底花了多少时间在DragonOS的开发之中，<br>我基本上把所有的空闲时间都给了DragonOS，保守估计总工时已经在1000小时以上。能够发布第一个版本，我感到十分有成就感。</p>
+<p>&emsp;&emsp;在2022年7月以来，陆陆续续的，有来自6所高校或企业的小伙伴/大佬加入了DragonOS的开发。我当时非常的欣喜，我想，也许在大家的一同努力下，我们能创造出<br>一个真正具有实用性的操作系统呢！我们累计召开了14次交流讨论会。我相信，在大家的共同努力下，将来，我们一定能创造出真正独立自主的、开放的、面向服务器领域应用的开源操作系统，并在生产环境中得到应用。</p>
+<p>&emsp;&emsp;尽管DragonOS目前只是一个玩具水平的操作系统，只是“比本科生毕业设计难度略高的”操作系统。但是，请不要小看它，它的内在的架构设计，瞄准了Linux5.18及以后的发行版，<br>虽尚未能达到Linux的水平，但我们正努力追赶。得益于Linux的相关资料，DragonOS在架构设计之时，学习了Linux的很多设计思想，相关组件都尽量考虑了可扩展性与可移植性。</p>
+<p>&emsp;&emsp;千里之行，始于足下。DragonOS V0.1.0版本的发布，是一个全新的开始。<strong>希望在未来的十年里，我们能与众多伙伴们一同努力，在2032年，将DragonOS建设成为具有实用意义的，能够在服务器领域取得广泛应用的开源操作系统！</strong></p>
+<p>&emsp;&emsp;<strong>百舸争流，奋楫者先；中流击水，勇进者胜。</strong> 我相信，在接下来的时间里，在社区开发者们的不断努力下，我们的目标，终将成为现实！</p>
+<h2 id="特别鸣谢"><a href="#特别鸣谢" class="headerlink" title="特别鸣谢"></a>特别鸣谢</h2><p>&emsp;&emsp;在DragonOS V0.1.0版本的发布之际，我想对我的老师、前辈以及学校表示衷心的感谢！</p>
+<ul>
+<li><p><strong>佛山市南海区大沥镇中心小学 姚志城老师</strong>： 您是带领我接触计算机，学会编程的领路人。十年前，与您交谈时，您说过：“我们国家目前还没有自主的、成熟的操作系统”。这句话，为我的梦想埋下了种子。您培养了我对计算机的热爱，因此我选择了软件工程这个专业。感谢当年您的教导，师恩难忘！</p>
+</li>
+<li><p><strong>佛山市南海区石门实验学校</strong>： 在石实就读的三年里，非常感谢石实的“扬长教育”理念，在老师们的培养下，让我充分发挥了自己的个性和特长，也取得了不错的成绩。在石实的三年里，我学会了C++、Java以及简单的算法，也自己开发了几个安卓app，积累了将近6千行的代码量。</p>
+</li>
+<li><p><strong>佛山市南海区石门中学</strong>：“任重道远，毋忘奋斗”是石中的校训，我想，这句校训，也应当成为我们每个新时代青年人的座右铭。在石门中学的三年，家国情怀教育对我产生了很大的影响。我想，我们作为新时代的青年，更应当肩负起时代的重任，奋勇拼搏，为祖国的发展，为民族的自强，为人类的未来，努力奋斗！</p>
+</li>
+<li><p><strong>华南理工大学</strong>：“博学慎思，明辨笃行”，在华工，我得到了进一步的学习与发展。开拓了自己的视野，学会了跟很多人打交道。并且，在软件学院，我遇到了一群认真负责的老师。非常感谢学院对我的支持，支持我们成立项目组。我相信，在学院的支持下，能让DragonOS取得更好的发展，走的更远！</p>
+</li>
+<li><p><strong>华南理工大学软件学院 王国华老师</strong>：王老师是我《操作系统》课程的老师，在她的指导下，我对操作系统的原理有了更深的理解，并参加了“泛珠三角+大学生计算机作品赛“，在2022年6月的广东省选拔赛中，DragonOS取得了一等奖、最佳创新奖的好成绩。</p>
+</li>
+<li><p><strong>华南理工大学软件学院 汤峰老师</strong>： 汤老师是我们在校内的项目组的指导老师。在她的悉心指导下，我们将不断前行，保持我们前进的方向，持续构建开源社区。我由衷地感谢汤老师的指导！</p>
+</li>
+<li><p>**<a target="_blank" rel="noopener" href="https://github.com/Codetector1374">Yaotian Feng</a>**： 在Bilibili上认识了这位非常厉害的老哥，解答了我的很多问题，很多次在我毫无头绪的debug了几天之后，几句话点醒了我，让我找到解决问题的路径。并且，他也跟我分享了容易踩坑的地方，让我在将要踩坑的时候能够有个心理预期，不至于那么难受哈哈哈哈。</p>
+</li>
+</ul>
+<h2 id="贡献者名单"><a href="#贡献者名单" class="headerlink" title="贡献者名单"></a>贡献者名单</h2><p>DragonOS V0.1.0版本的发布，离不开以下小伙伴们的共同努力：</p>
+<ul>
+<li>龙进 <a href="mailto:&#108;&#111;&#110;&#103;&#106;&#105;&#x6e;&#64;&#82;&#105;&#110;&#71;&#x6f;&#x54;&#101;&#107;&#x2e;&#99;&#110;">&#108;&#111;&#110;&#103;&#106;&#105;&#x6e;&#64;&#82;&#105;&#110;&#71;&#x6f;&#x54;&#101;&#107;&#x2e;&#99;&#110;</a></li>
+<li>zzy666-hw <a href="mailto:&#x7a;&#122;&#121;&#x36;&#54;&#54;&#64;&#x6d;&#97;&#105;&#108;&#46;&#117;&#115;&#116;&#x63;&#46;&#x65;&#x64;&#117;&#46;&#99;&#x6e;">&#x7a;&#122;&#121;&#x36;&#54;&#54;&#64;&#x6d;&#97;&#105;&#108;&#46;&#117;&#115;&#116;&#x63;&#46;&#x65;&#x64;&#117;&#46;&#99;&#x6e;</a></li>
+<li>关锦权 <a href="mailto:&#x67;&#x75;&#x61;&#110;&#106;&#105;&#x6e;&#113;&#x75;&#x61;&#x6e;&#x40;&#x44;&#114;&#x61;&#x67;&#111;&#110;&#x4f;&#x53;&#46;&#111;&#114;&#x67;">&#x67;&#x75;&#x61;&#110;&#106;&#105;&#x6e;&#113;&#x75;&#x61;&#x6e;&#x40;&#x44;&#114;&#x61;&#x67;&#111;&#110;&#x4f;&#x53;&#46;&#111;&#114;&#x67;</a></li>
+<li>周于喆 <a href="mailto:&#x7a;&#x68;&#111;&#117;&#x79;&#x75;&#x7a;&#x68;&#101;&#64;&#68;&#114;&#97;&#x67;&#111;&#x6e;&#79;&#83;&#x2e;&#111;&#x72;&#103;">&#x7a;&#x68;&#111;&#117;&#x79;&#x75;&#x7a;&#x68;&#101;&#64;&#68;&#114;&#97;&#x67;&#111;&#x6e;&#79;&#83;&#x2e;&#111;&#x72;&#103;</a></li>
+<li>kkkkkong <a href="mailto:&#107;&#x6f;&#110;&#x67;&#119;&#101;&#105;&#99;&#x68;&#97;&#x6f;&#x40;&#68;&#x72;&#x61;&#x67;&#111;&#x6e;&#x4f;&#x53;&#46;&#111;&#114;&#103;">&#107;&#x6f;&#110;&#x67;&#119;&#101;&#105;&#99;&#x68;&#97;&#x6f;&#x40;&#68;&#x72;&#x61;&#x67;&#111;&#x6e;&#x4f;&#x53;&#46;&#111;&#114;&#103;</a></li>
+<li>houmkh <a href="mailto:&#106;&#105;&#97;&#x79;&#x69;&#x6e;&#x67;&#x2e;&#x68;&#x6f;&#x75;&#64;&#x71;&#113;&#46;&#99;&#x6f;&#109;">&#106;&#105;&#97;&#x79;&#x69;&#x6e;&#x67;&#x2e;&#x68;&#x6f;&#x75;&#64;&#x71;&#113;&#46;&#99;&#x6f;&#109;</a></li>
+<li>wang904 <a href="mailto:&#x31;&#x32;&#x33;&#52;&#x33;&#54;&#54;&#64;&#x71;&#x71;&#46;&#99;&#111;&#x6d;">&#x31;&#x32;&#x33;&#52;&#x33;&#54;&#54;&#64;&#x71;&#x71;&#46;&#99;&#111;&#x6d;</a></li>
+<li>Liric Mechan <a href="mailto:&#x69;&#x40;&#x6c;&#x69;&#114;&#105;&#x63;&#46;&#99;&#110;">&#x69;&#x40;&#x6c;&#x69;&#114;&#105;&#x63;&#46;&#99;&#110;</a></li>
+<li>Mustang <a href="mailto:&#104;&#97;&#110;&#100;&#115;&#111;&#x6d;&#101;&#x70;&#x64;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#109;">&#104;&#97;&#110;&#100;&#115;&#111;&#x6d;&#101;&#x70;&#x64;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#109;</a></li>
+<li>Eugene <a href="mailto:&#99;&#97;&#x69;&#x6d;&#97;&#x31;&#50;&#49;&#51;&#56;&#x40;&#x66;&#111;&#120;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#109;">&#99;&#97;&#x69;&#x6d;&#97;&#x31;&#50;&#49;&#51;&#56;&#x40;&#x66;&#111;&#120;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#109;</a></li>
+<li>kun <a href="mailto:&#49;&#53;&#56;&#x32;&#x30;&#54;&#56;&#49;&#52;&#x34;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#x6d;">&#49;&#53;&#56;&#x32;&#x30;&#54;&#56;&#49;&#52;&#x34;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#x6d;</a></li>
+<li>zhujikuan <a href="mailto:&#49;&#51;&#51;&#x35;&#50;&#56;&#57;&#50;&#x38;&#x36;&#64;&#x71;&#x71;&#46;&#99;&#x6f;&#x6d;">&#49;&#51;&#51;&#x35;&#50;&#56;&#57;&#50;&#x38;&#x36;&#64;&#x71;&#x71;&#46;&#99;&#x6f;&#x6d;</a></li>
+<li>Alloc Alice <a href="mailto:&#x31;&#x35;&#52;&#x38;&#55;&#52;&#x32;&#x32;&#51;&#x34;&#64;&#x71;&#x71;&#46;&#99;&#111;&#109;">&#x31;&#x35;&#52;&#x38;&#55;&#52;&#x32;&#x32;&#51;&#x34;&#64;&#x71;&#x71;&#46;&#99;&#111;&#109;</a></li>
+</ul>
+<h2 id="赞助者名单"><a href="#赞助者名单" class="headerlink" title="赞助者名单"></a>赞助者名单</h2><p>感谢以下同学的赞赏，我们将不断努力！</p>
+<ul>
+<li>TerryLeeSCUT</li>
+<li>悟</li>
+<li>slientbard</li>
+</ul>
+<h2 id="内核"><a href="#内核" class="headerlink" title="内核"></a>内核</h2><h3 id="遵循的一些标准规范"><a href="#遵循的一些标准规范" class="headerlink" title="遵循的一些标准规范"></a>遵循的一些标准规范</h3><ul>
+<li>启动引导：Multiboot2</li>
+<li>系统接口：posix 2008</li>
+</ul>
+<h3 id="硬件架构"><a href="#硬件架构" class="headerlink" title="硬件架构"></a>硬件架构</h3><ul>
+<li><p>目前支持在x86-64架构的处理器上运行</p>
+<h3 id="Bootloader"><a href="#Bootloader" class="headerlink" title="Bootloader"></a>Bootloader</h3></li>
+<li><p>使用Grub 2.06作为bootloader</p>
+</li>
+</ul>
+<h3 id="内存管理"><a href="#内存管理" class="headerlink" title="内存管理"></a>内存管理</h3><ul>
+<li>实现了基于bitmap的页分配器</li>
+<li>实现了slab分配器，用来分配小块的、具有对齐要求的内存</li>
+<li>抽象出VMA（虚拟内存区域）</li>
+<li>实现VMA反向映射机制</li>
+<li>实现MMIO地址空间自动映射机制</li>
+</ul>
+<h3 id="多核"><a href="#多核" class="headerlink" title="多核"></a>多核</h3><ul>
+<li>支持多核引导。也就是说，在DragonOS启动后，将会启动AP处理器。但是，为了简化其他内核模块的实现，目前AP处理器上，暂时没有任务在运行。</li>
+<li>粗略实现了IPI（处理器核间通信）框架</li>
+</ul>
+<h3 id="进程管理"><a href="#进程管理" class="headerlink" title="进程管理"></a>进程管理</h3><ul>
+<li>支持进程的创建、回收</li>
+<li>内核线程</li>
+<li>kthread机制</li>
+<li>用户态、内核态进程/线程的fork/vfork（注意，用户态的fork和内核态的有一定的区别，内核态的fork更复杂）</li>
+<li>exec 让进程去执行一个新的可执行文件</li>
+<li>进程的定时睡眠（sleep)（支持spin/rdtsc高精度睡眠、支持上下文切换方式的睡眠）</li>
+</ul>
+<h3 id="同步原语"><a href="#同步原语" class="headerlink" title="同步原语"></a>同步原语</h3><ul>
+<li>spinlock 自旋锁</li>
+<li>mutex 互斥量</li>
+<li>atomic 原子变量</li>
+<li>wait_queue 等待队列</li>
+<li>semaphore 信号量</li>
+</ul>
+<h3 id="调度相关"><a href="#调度相关" class="headerlink" title="调度相关"></a>调度相关</h3><ul>
+<li>CFS调度器</li>
+<li>单核调度（暂时不支持多核负载均衡）</li>
+<li>completion “完成”机制，让一个进程能等待某个任务的完成。</li>
+</ul>
+<h3 id="IPC进程间通信"><a href="#IPC进程间通信" class="headerlink" title="IPC进程间通信"></a>IPC进程间通信</h3><ul>
+<li>匿名管道</li>
+</ul>
+<h3 id="文件系统"><a href="#文件系统" class="headerlink" title="文件系统"></a>文件系统</h3><ul>
+<li>VFS虚拟文件系统的基本功能</li>
+<li>FAT32文件系统（尚不支持删除文件夹）</li>
+<li>devfs设备文件系统。目前只将键盘文件注册到其中。</li>
+<li>rootfs根文件系统，在真实的磁盘文件系统被挂载前，为其他的伪文件系统提供支持。</li>
+<li>挂载点抽象。目前实现了文件系统的挂载，使用类似于栈的方式管理所有的挂载点。（将来需要优化这部分）</li>
+</ul>
+<h3 id="异常及中断处理"><a href="#异常及中断处理" class="headerlink" title="异常及中断处理"></a>异常及中断处理</h3><ul>
+<li>处理器异常的捕获</li>
+<li>对APIC的支持</li>
+<li>softirq软中断机制</li>
+<li>能够对内核栈进行traceback</li>
+</ul>
+<h3 id="内核数据结构"><a href="#内核数据结构" class="headerlink" title="内核数据结构"></a>内核数据结构</h3><ul>
+<li>普通的二叉树</li>
+<li>kfifo先进先出缓冲区</li>
+<li>循环链表</li>
+<li>IDR 映射数据结构</li>
+<li>IDA ID分配数据组件</li>
+</ul>
+<h3 id="屏幕显示"><a href="#屏幕显示" class="headerlink" title="屏幕显示"></a>屏幕显示</h3><ul>
+<li>VESA VBE显示芯片驱动</li>
+<li>实现了屏幕管理器，支持多个显示框架注册到屏幕管理器中。</li>
+<li>实现了TextUI文本界面框架，能够渲染文本到屏幕上。并且预留了上下滚动翻页、多显示窗口的支持。</li>
+<li>printk</li>
+</ul>
+<h3 id="内核实用库"><a href="#内核实用库" class="headerlink" title="内核实用库"></a>内核实用库</h3><ul>
+<li>字符串操作库</li>
+<li>ELF可执行文件支持组件</li>
+<li>基础数学库</li>
+<li>CRC函数库</li>
+</ul>
+<h3 id="软件移植"><a href="#软件移植" class="headerlink" title="软件移植"></a>软件移植</h3><ul>
+<li>移植了LZ4压缩库（V1.9.3），为将来实现页面压缩机制打下基础。</li>
+</ul>
+<h3 id="内核测试"><a href="#内核测试" class="headerlink" title="内核测试"></a>内核测试</h3><ul>
+<li>ktest单元测试框架</li>
+<li>支持使用串口（COM1）输出屏幕内容到文件之中。</li>
+</ul>
+<h3 id="驱动程序支持"><a href="#驱动程序支持" class="headerlink" title="驱动程序支持"></a>驱动程序支持</h3><ul>
+<li>IDE硬盘</li>
+<li>AHCI硬盘（SATA Native)</li>
+<li>ACPI 高级电源配置模块</li>
+<li>PCI总线驱动</li>
+<li>XHCI主机控制器驱动（usb3.0)</li>
+<li>ps/2键盘</li>
+<li>ps/2鼠标</li>
+<li>HPET高精度定时器</li>
+<li>RTC时钟</li>
+<li>local APIC定时器</li>
+<li>UART串口（支持RS-232)</li>
+<li>VBE显示</li>
+<li>虚拟tty设备</li>
+</ul>
+<h3 id="系统调用"><a href="#系统调用" class="headerlink" title="系统调用"></a>系统调用</h3><p>DragonOS目前一共有22个有效的系统调用。</p>
+<ul>
+<li>SYS_PUT_STRING 往屏幕上打印字符</li>
+<li>SYS_OPEN 打开文件</li>
+<li>SYS_CLOSE 关闭文件</li>
+<li>SYS_READ 读取文件</li>
+<li>SYS_WRITE 写入文件</li>
+<li>SYS_LSEEK 调整文件指针</li>
+<li>SYS_FORK fork系统调用</li>
+<li>SYS_VFORK vfork系统调用</li>
+<li>SYS_BRK 调整堆大小为指定值</li>
+<li>SYS_SBRK 调整堆大小为相对值</li>
+<li>SYS_REBOOT 重启 （将来sysfs完善后，将删除这个系统调用，请勿过度依赖这个系统调用）</li>
+<li>SYS_CHDIR 切换进程的工作目录</li>
+<li>SYS_GET_DENTS 获取目录中的目录项的元数据</li>
+<li>SYS_EXECVE 让当前进程执行新的程序文件</li>
+<li>SYS_WAIT4 等待进程退出</li>
+<li>SYS_EXIT 退出当前进程</li>
+<li>SYS_MKDIR 创建文件夹</li>
+<li>SYS_NANOSLEEP 纳秒级睡眠（最长1秒）在小于500ns时，能够进行高精度睡眠</li>
+<li>SYS_CLOCK 获取当前cpu时间</li>
+<li>SYS_PIPE 创建管道</li>
+<li>SYS_MSTAT 获取系统当前的内存状态信息</li>
+<li>SYS_UNLINK_AT 删除文件夹或删除文件链接</li>
+</ul>
+<h3 id="Rust支持"><a href="#Rust支持" class="headerlink" title="Rust支持"></a>Rust支持</h3><ul>
+<li>实现了一个简单的rust语言的hello world，计划在接下来的版本中，逐步转向使用rust进行开发。</li>
+</ul>
+<h2 id="用户环境"><a href="#用户环境" class="headerlink" title="用户环境"></a>用户环境</h2><h3 id="LibC"><a href="#LibC" class="headerlink" title="LibC"></a>LibC</h3><p>&emsp;&emsp;LibC是应用程序与操作系统交互的纽带。DragonOS的LibC实现了一些简单的功能。</p>
+<ul>
+<li>malloc堆内存分配器</li>
+<li>基础数学库</li>
+<li>简单的几个与文件相关的函数</li>
+<li>pipe</li>
+<li>fork/vfork</li>
+<li>clock</li>
+<li>sleep</li>
+<li>printf</li>
+</ul>
+<h3 id="Shell命令行程序"><a href="#Shell命令行程序" class="headerlink" title="Shell命令行程序"></a>Shell命令行程序</h3><ul>
+<li>基于简单的字符串匹配的解析（不是通过编译课程学的的那一套东西做的，因此比较简单，粗暴）</li>
+<li>支持的命令：ls,cd,mkdir,exec,about,rmdir,rm,cat,touch,reboot</li>
+</ul>
+<h3 id="用户态驱动程序"><a href="#用户态驱动程序" class="headerlink" title="用户态驱动程序"></a>用户态驱动程序</h3><ul>
+<li>用户态键盘驱动程序</li>
+</ul>
+<h2 id="源码、发布版镜像下载"><a href="#源码、发布版镜像下载" class="headerlink" title="源码、发布版镜像下载"></a>源码、发布版镜像下载</h2><p>&emsp;&emsp;您可以通过以下方式获得源代码:</p>
+<h3 id="通过Git获取"><a href="#通过Git获取" class="headerlink" title="通过Git获取"></a>通过Git获取</h3><ul>
+<li>您可以访问<a target="_blank" rel="noopener" href="https://github.com/fslongjin/DragonOS/releases">https://github.com/fslongjin/DragonOS/releases</a>下载发布版的代码，以及编译好的，可运行的磁盘镜像。</li>
+<li>我们在gitee上也有镜像仓库可供下载：<a target="_blank" rel="noopener" href="https://gitee.com/DragonOS/DragonOS">https://gitee.com/DragonOS/DragonOS</a></li>
+</ul>
+<h3 id="通过DragonOS软件镜像站获取"><a href="#通过DragonOS软件镜像站获取" class="headerlink" title="通过DragonOS软件镜像站获取"></a>通过DragonOS软件镜像站获取</h3><p>&emsp;&emsp;为解决国内访问GitHub慢、不稳定的问题，同时为了方便开发者们下载DragonOS的每个版本的代码，我们特意搭建了镜像站，您可以通过以下地址访问镜像站：</p>
+<p>&emsp;&emsp;您可以通过镜像站获取到DragonOS的代码压缩包，以及编译好的可运行的磁盘镜像。</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://mirrors.dragonos.org/">https://mirrors.DragonOS.org</a></li>
+<li><a target="_blank" rel="noopener" href="https://mirrors.dragonos.org.cn/">https://mirrors.DragonOS.org.cn</a></li>
+</ul>
+<h2 id="开放源代码声明"><a href="#开放源代码声明" class="headerlink" title="开放源代码声明"></a>开放源代码声明</h2><p>&emsp;&emsp;为促进DragonOS项目的健康发展，DragonOS以GPLv2开源协议进行发布。所有能获得到DragonOS源代码以及相应的软件制品（包括但不限于二进制副本、文档）的人，都能享有我们通过GPLv2协议授予您的权利，同时您也需要遵守协议中规定的义务。</p>
+<p>&emsp;&emsp;这是一个相当严格的，保护开源软件健康发展，不被侵占的协议。</p>
+<p>&emsp;&emsp;对于大部分的善意的人们而言，您不会违反我们的开源协议。</p>
+<p>&emsp;&emsp;我们鼓励DragonOS的自由传播、推广，但是请确保所有行为没有侵犯他人的合法权益，也没有违反GPLv2协议。</p>
+<p>&emsp;&emsp;请特别注意，对于违反开源协议的，尤其是<strong>商业闭源使用以及任何剽窃、学术不端行为将会受到严肃的追责</strong>。（这是最容易违反我们的开源协议的场景）。</p>
+<p>&emsp;&emsp;并且，请注意，按照GPLv2协议的要求，基于DragonOS修改或二次开发的软件，必须同样采用GPLv2协议开源，并标明其基于DragonOS进行了修改。亦需保证这些修改版本的用户能方便的获取到DragonOS的原始版本。</p>
+<p>&emsp;&emsp;您必须使得DragonOS的开发者们，能够以同样的方式，从公开渠道获取到您二次开发的版本的源代码，否则您将违反GPLv2协议。</p>
+<p>&emsp;&emsp;关于协议详细内容，还敬请您请阅读项目根目录下的<strong>LICENSE</strong>文件。请注意，按照GPLv2协议的要求，<strong>只有英文原版才具有法律效力</strong>。任何翻译版本都仅供参考。</p>
+<h3 id="开源软件使用情况"><a href="#开源软件使用情况" class="headerlink" title="开源软件使用情况"></a>开源软件使用情况</h3><p>&emsp;&emsp;DragonOS在开发的过程中，参考了一些开源项目的设计，或者引入了他们的部分代码，亦或是受到了他们的启发。现将他们列在下面。我们对这些开源项目的贡献者们致以最衷心的感谢！</p>
+<p>&emsp;&emsp;格式：&lt;项目名&gt; - &lt;链接&gt; - &lt;开源协议&gt;</p>
+<ul>
+<li>Linux -     <a target="_blank" rel="noopener" href="https://git.kernel.org/">https://git.kernel.org/</a> - GPLv2</li>
+<li>skiftOS - <a target="_blank" rel="noopener" href="https://github.com/skiftOS/skift">https://github.com/skiftOS/skift</a> - MIT</li>
+<li>FYSOS - <a target="_blank" rel="noopener" href="https://github.com/fysnet/FYSOS">https://github.com/fysnet/FYSOS</a> - <a target="_blank" rel="noopener" href="https://github.com/fysnet/FYSOS/blob/9a8968e3d6600de34539c028c843f4c06d134039/license.txt">FYSOS’ License</a></li>
+<li>LemonOS - <a target="_blank" rel="noopener" href="https://github.com/LemonOSProject/LemonOS.git">https://github.com/LemonOSProject/LemonOS.git</a> - BSD 2-Clause License</li>
+<li>LZ4 - <a target="_blank" rel="noopener" href="https://github.com/lz4/lz4">https://github.com/lz4/lz4</a> - BSD 2-Clause license</li>
+<li>SerenityOS - <a target="_blank" rel="noopener" href="https://github.com/SerenityOS/serenity.git">https://github.com/SerenityOS/serenity.git</a> - BSD 2-Clause license</li>
+<li>MINE - 《一个64位操作系统的设计与实现》田宇; 人民邮电出版社</li>
+<li>chcore - 《现代操作系统：设计与实现》陈海波，夏虞斌; 机械工业出版社</li>
+<li>SimpleKernel - <a target="_blank" rel="noopener" href="https://github.com/Simple-XX/SimpleKernel">https://github.com/Simple-XX/SimpleKernel</a> - MIT</li>
+</ul>
+
+                    
+                    <!-- Tags Bottom -->
+                    
+                        <div class="tags-container-bottom">
+                            <i class="fa fa-tag pr3 text-main-color"></i><a class="fw3 ph1 dib" href="/tags/Release/">#Release</a>
+                        </div>
+                    
+
+                    <!-- Comments -->
+                    
+
+
+
+                </div>
+                <div class="fl w-100 w-30-l center fw3 lh-copy pl4-ns tl black-50">
+                    
+                    <hr class="dn-l mw4 black-50 mt5" />
+                    
+                    <!-- Widget 1: About -->
+                    <div class="mt5 mt0-l">
+    <article class="dt db-l mw8 mw8-m mw5-ns center ml0-l bg-white mv3">
+        <div class="dn dtc-m db-l v-mid tc pr4 pr0-l" style="min-width: 6rem;">
+            <img src="https://s2.loli.net/2022/11/27/XIVQHhyJUReuP1a.png" class="mb4-l br-100 h3 w3 h4-l w4-l dib" title="LoGin">
+        </div>
+        <div class="dtc db-l v-mid lh-copy measure center f6 black-50 tj">
+            DragonOS致力于成为一个完全独立自主的，具有Linux兼容性的，面向服务端的开源操作系统。
+        </div>
+    </article>
+</div>
+
+                    <hr class="dn-l mw4 black-50 mt5" />
+                    
+                    <!-- Widget 2: Categories -->
+                    
+
+                    <!-- Widget 3: Recent Posts -->
+                    <div class="mt5 tc tl-l">
+    <h3>Recent Posts</h3>
+    
+        <p>
+            <a href="/uncategorized/Release-V0-1-1/">V0.1.1版本发布日志</a>
+        </p>
+    
+        <p>
+            <a href="/uncategorized/Release-V0-1-0/">V0.1.0版本发布日志</a>
+        </p>
+    
+        <p>
+            <a href="/uncategorized/summary/">关于DragonOS，你想了解的都在这儿</a>
+        </p>
+    
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<div class="bg-1 ph2 ph5-ns pv5">
+        <div class="mv8">
+            <div class="center tc">
+                
+                    <div class="dib mh3">
+                        <a class="f3 f2-ns white dim" href="https://github.com/fslongjin/dragonOS" target="_blank">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </div>
+                
+                    <div class="dib mh3">
+                        <a class="f3 f2-ns white dim" href="mailto:longjin@RinGoTek.cn" target="_blank">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                    </div>
+                
+                    <div class="dib mh3">
+                        <a class="f3 f2-ns white dim" href="/#" target="_blank">
+                            <i class="fa fa-rss"></i>
+                        </a>
+                    </div>
+                
+            </div>
+            <div class="f6 f5-ns center tc white pt5 fw3">
+                ©2015-2022 RinGoTek. All right reserved.
+            </div>
+        </div>
+    </div>
+
+<!-- After Footer -->
+<!-- Disqus Comments -->
+
+
+
+</body>
+
+</html>
