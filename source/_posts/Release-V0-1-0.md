@@ -1,7 +1,8 @@
 ---
 title: V0.1.0版本发布日志
 date: 2022-11-06 10:00:00
-tags: Release 
+tags: Release
+categories: ChangeLog
 ---
 
 本文作者：龙进 <longjin@RinGoTek.cn>
